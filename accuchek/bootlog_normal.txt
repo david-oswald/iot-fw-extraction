@@ -1,0 +1,430 @@
+HTLC
+
+BATT:4.20V
+
+I2CRESET
+
+
+
+PORT0=0x0000004a
+
+
+
+BQ FWREV=0x00000123
+
+Good Battery
+
+DisablePEXVccSys
+
+Brownout PwrDwn Enabled
+
+LLJ
+
+Microsoft Windows CE Bootloader Common Library Version 1.4 Built Aug 20 2014 13:17:16
+
+Microsoft Windows CE Ethernet Bootloader 2.55 for MX233 (Aug 20 2014 13:20:24)
+
+Primary Bootloader.
+
+All safety check Flags are clear.
+
+INFO: OEMPlatformInit: Initialized NAND flash device.
+
+NANDLoadUUID
+
+Cold Application Startup Required
+
+INFO: Loading boot configuration from NAND
+
+AmbientTemperature = 295 Deg K
+
+OALMeasureDieTemperature = 297 Deg K
+
+LCD pins OK
+
+System ready!
+
+Preparing for download...
+
+INFO:  Initial Eboot Screen Display...
+
+DisplayInit: BSP_DISPLAY_ILI9327
+
+LCDID Count = 0xE, Voltage = 6 mV
+
+ERROR: 7001/BSP_ERROR_LCD_ID_VOLTAGE_LOW (6)!
+
+BSP Last Error already set to 7106. New error 7001 not saved.
+
+XTouchOpenCount = 2049
+
+XTouchClosedCount = 2065
+
+YTouchOpenCount = 2064
+
+YTouchClosedCount = 2072
+
+ERROR: 7003/BSP_ERROR_TOUCH_SCREEN_CONNECTION_BAD range!
+
+BSP Last Error already set to 7106. New error 7003 not saved.
+
+Regulator2V5Count = 0xAE7, Voltage/2 = 1260 mV
+
+
+
+Press [ENTER] to download now or [SPACE] to cancel.
+
+
+
+Initiating image download in 0 seconds.
+
+Starting auto download ...
+
+
+
+SD Download Image AutoSelect
+
++InitSpecifiedEthDevice
+
+INFO: MAC address: 0-2-B3-92-A8-C4
+
+-BLMenu .
+
+INFO: Using device name: 'MX23343204'
+
+INFO: Reading NK image from NAND (please wait)...
+
+
+INFO: Loading image is 1% completed.
+INFO: Loading image is 2% completed.
+INFO: Loading image is 3% completed.
+INFO: Loading image is 4% completed.
+INFO: Loading image is 5% completed.
+INFO: Loading image is 6% completed.
+INFO: Loading image is 7% completed.
+INFO: Loading image is 8% completed.
+INFO: Loading image is 9% completed.
+INFO: Loading image is 10% completed.
+INFO: Loading image is 11% completed.
+INFO: Loading image is 12% completed.
+INFO: Loading image is 13% completed.
+INFO: Loading image is 14% completed.
+INFO: Loading image is 15% completed.
+INFO: Loading image is 16% completed.
+INFO: Loading image is 17% completed.
+INFO: Loading image is 18% completed.
+INFO: Loading image is 19% completed.
+INFO: Loading image is 20% completed.
+INFO: Loading image is 21% completed.
+INFO: Loading image is 22% completed.
+INFO: Loading image is 23% completed.
+INFO: Loading image is 24% completed.
+INFO: Loading image is 25% completed.
+INFO: Loading image is 26% completed.
+INFO: Loading image is 27% completed.
+INFO: Loading image is 28% completed.
+INFO: Loading image is 29% completed.
+INFO: Loading image is 30% completed.
+INFO: Loading image is 31% completed.
+INFO: Loading image is 32% completed.
+INFO: Loading image is 33% completed.
+INFO: Loading image is 34% completed.
+INFO: Loading image is 35% completed.
+INFO: Loading image is 36% completed.
+INFO: Loading image is 37% completed.
+INFO: Loading image is 38% completed.
+INFO: Loading image is 39% completed.
+INFO: Loading image is 40% completed.
+INFO: Loading image is 41% completed.
+INFO: Loading image is 42% completed.
+INFO: Loading image is 43% completed.
+INFO: Loading image is 44% completed.
+INFO: Loading image is 45% completed.
+INFO: Loading image is 46% completed.
+INFO: Loading image is 47% completed.
+INFO: Loading image is 48% completed.
+INFO: Loading image is 49% completed.
+INFO: Loading image is 50% completed.
+INFO: Loading image is 51% completed.
+INFO: Loading image is 52% completed.
+INFO: Loading image is 53% completed.
+INFO: Loading image is 54% completed.
+INFO: Loading image is 55% completed.
+INFO: Loading image is 56% completed.
+INFO: Loading image is 57% completed.
+INFO: Loading image is 58% completed.
+INFO: Loading image is 59% completed.
+INFO: Loading image is 60% completed.
+INFO: Loading image is 61% completed.
+INFO: Loading image is 62% completed.
+INFO: Loading image is 63% completed.
+INFO: Loading image is 64% completed.
+INFO: Loading image is 65% completed.
+INFO: Loading image is 66% completed.
+INFO: Loading image is 67% completed.
+INFO: Loading image is 68% completed.
+INFO: Loading image is 69% completed.
+INFO: Loading image is 70% completed.
+INFO: Loading image is 71% completed.
+INFO: Loading image is 72% completed.
+INFO: Loading image is 73% completed.
+INFO: Loading image is 74% completed.
+INFO: Loading image is 75% completed.
+INFO: Loading image is 76% completed.
+INFO: Loading image is 77% completed.
+INFO: Loading image is 78% completed.
+INFO: Loading image is 79% completed.
+INFO: Loading image is 80% completed.
+INFO: Loading image is 81% completed.
+INFO: Loading image is 82% completed.
+INFO: Loading image is 83% completed.
+INFO: Loading image is 84% completed.
+INFO: Loading image is 85% completed.
+INFO: Loading image is 86% completed.
+INFO: Loading image is 87% completed.
+INFO: Loading image is 88% completed.
+INFO: Loading image is 89% completed.
+INFO: Loading image is 90% completed.
+INFO: Loading image is 91% completed.
+INFO: Loading image is 92% completed.
+INFO: Loading image is 93% completed.
+INFO: Loading image is 94% completed.
+INFO: Loading image is 95% completed.
+INFO: Loading image is 96% completed.
+INFO: Loading image is 97% completed.
+INFO: Loading image is 98% completed.
+INFO: Loading image is 99% completed.
+INFO: Loading image is 100% completed.
+
+INFO: Loading of NK completed successfully.
+
+INFO: Loading boot configuration from NAND
+
+Download successful!  Jumping to image at 0x80200000 (physical 0x40200000)...
+
+
+
+
+
+
+
+Windows CE Kernel for ARM (Thumb Enabled) Built on May  7 2012 at 12:47:43
+
+RAMFMD: Clearing RAM storage region
+
+HTLC
+
+BATT:4.20V
+
+I2CRESET
+
+
+
+PORT0=0x0000004a
+
+
+
+BQ FWREV=0x00000123
+
+Good Battery
+
+DisablePEXVccSys
+
+Brownout PwrDwn Enabled
+
+LLJ
+
+Microsoft Windows CE Bootloader Common Library Version 1.4 Built Aug 20 2014 13:17:16
+
+Microsoft Windows CE Ethernet Bootloader 2.55 for MX233 (Aug 20 2014 13:20:24)
+
+Primary Bootloader.
+
+All safety check Flags are clear.
+
+INFO: OEMPlatformInit: Initialized NAND flash device.
+
+NANDLoadUUID
+
+Cold Application Startup Required
+
+INFO: Loading boot configuration from NAND
+
+AmbientTemperature = 296 Deg K
+
+OALMeasureDieTemperature = 297 Deg K
+
+LCD pins OK
+
+System ready!
+
+Preparing for download...
+
+INFO:  Initial Eboot Screen Display...
+
+DisplayInit: BSP_DISPLAY_ILI9327
+
+LCDID Count = 0xD, Voltage = 5 mV
+
+ERROR: 7001/BSP_ERROR_LCD_ID_VOLTAGE_LOW (5)!
+
+BSP Last Error already set to 7106. New error 7001 not saved.
+
+XTouchOpenCount = 2049
+
+XTouchClosedCount = 2067
+
+YTouchOpenCount = 2065
+
+YTouchClosedCount = 2068
+
+ERROR: 7003/BSP_ERROR_TOUCH_SCREEN_CONNECTION_BAD range!
+
+BSP Last Error already set to 7106. New error 7003 not saved.
+
+Regulator2V5Count = 0xAE8, Voltage/2 = 1261 mV
+
+
+
+Press [ENTER] to download now or [SPACE] to cancel.
+
+
+
+Initiating image download in 0 seconds.
+
+Starting auto download ...
+
+
+
+SD Download Image AutoSelect
+
++InitSpecifiedEthDevice
+
+INFO: MAC address: 0-2-B3-92-A8-C4
+
+-BLMenu .
+
+INFO: Using device name: 'MX23343204'
+
+WARNING: InitSDHC: Failed to initialize SDHC device.
+
+INFO: Reading NK image from NAND (please wait)...
+
+
+INFO: Loading image is 1% completed.
+INFO: Loading image is 2% completed.
+INFO: Loading image is 3% completed.
+INFO: Loading image is 4% completed.
+INFO: Loading image is 5% completed.
+INFO: Loading image is 6% completed.
+INFO: Loading image is 7% completed.
+INFO: Loading image is 8% completed.
+INFO: Loading image is 9% completed.
+INFO: Loading image is 10% completed.
+INFO: Loading image is 11% completed.
+INFO: Loading image is 12% completed.
+INFO: Loading image is 13% completed.
+INFO: Loading image is 14% completed.
+INFO: Loading image is 15% completed.
+INFO: Loading image is 16% completed.
+INFO: Loading image is 17% completed.
+INFO: Loading image is 18% completed.
+INFO: Loading image is 19% completed.
+INFO: Loading image is 20% completed.
+INFO: Loading image is 21% completed.
+INFO: Loading image is 22% completed.
+INFO: Loading image is 23% completed.
+INFO: Loading image is 24% completed.
+INFO: Loading image is 25% completed.
+INFO: Loading image is 26% completed.
+INFO: Loading image is 27% completed.
+INFO: Loading image is 28% completed.
+INFO: Loading image is 29% completed.
+INFO: Loading image is 30% completed.
+INFO: Loading image is 31% completed.
+INFO: Loading image is 32% completed.
+INFO: Loading image is 33% completed.
+INFO: Loading image is 34% completed.
+INFO: Loading image is 35% completed.
+INFO: Loading image is 36% completed.
+INFO: Loading image is 37% completed.
+INFO: Loading image is 38% completed.
+INFO: Loading image is 39% completed.
+INFO: Loading image is 40% completed.
+INFO: Loading image is 41% completed.
+INFO: Loading image is 42% completed.
+INFO: Loading image is 43% completed.
+INFO: Loading image is 44% completed.
+INFO: Loading image is 45% completed.
+INFO: Loading image is 46% completed.
+INFO: Loading image is 47% completed.
+INFO: Loading image is 48% completed.
+INFO: Loading image is 49% completed.
+INFO: Loading image is 50% completed.
+INFO: Loading image is 51% completed.
+INFO: Loading image is 52% completed.
+INFO: Loading image is 53% completed.
+INFO: Loading image is 54% completed.
+INFO: Loading image is 55% completed.
+INFO: Loading image is 56% completed.
+INFO: Loading image is 57% completed.
+INFO: Loading image is 58% completed.
+INFO: Loading image is 59% completed.
+INFO: Loading image is 60% completed.
+INFO: Loading image is 61% completed.
+INFO: Loading image is 62% completed.
+INFO: Loading image is 63% completed.
+INFO: Loading image is 64% completed.
+INFO: Loading image is 65% completed.
+INFO: Loading image is 66% completed.
+INFO: Loading image is 67% completed.
+INFO: Loading image is 68% completed.
+INFO: Loading image is 69% completed.
+INFO: Loading image is 70% completed.
+INFO: Loading image is 71% completed.
+INFO: Loading image is 72% completed.
+INFO: Loading image is 73% completed.
+INFO: Loading image is 74% completed.
+INFO: Loading image is 75% completed.
+INFO: Loading image is 76% completed.
+INFO: Loading image is 77% completed.
+INFO: Loading image is 78% completed.
+INFO: Loading image is 79% completed.
+INFO: Loading image is 80% completed.
+INFO: Loading image is 81% completed.
+INFO: Loading image is 82% completed.
+INFO: Loading image is 83% completed.
+INFO: Loading image is 84% completed.
+INFO: Loading image is 85% completed.
+INFO: Loading image is 86% completed.
+INFO: Loading image is 87% completed.
+INFO: Loading image is 88% completed.
+INFO: Loading image is 89% completed.
+INFO: Loading image is 90% completed.
+INFO: Loading image is 91% completed.
+INFO: Loading image is 92% completed.
+INFO: Loading image is 93% completed.
+INFO: Loading image is 94% completed.
+INFO: Loading image is 95% completed.
+INFO: Loading image is 96% completed.
+INFO: Loading image is 97% completed.
+INFO: Loading image is 98% completed.
+INFO: Loading image is 99% completed.
+INFO: Loading image is 100% completed.
+
+INFO: Loading of NK completed successfully.
+
+INFO: Loading boot configuration from NAND
+
+Download successful!  Jumping to image at 0x80200000 (physical 0x40200000)...
+
+
+
+
+
+
+
+Windows CE Kernel for ARM (Thumb Enabled) Built on May  7 2012 at 12:47:43
+
+RAMFMD: Clearing RAM storage region
+

@@ -1,0 +1,444 @@
+[0] [PMIC_WRAP]wrap_init pass,the return value=0.
+[1] [pmic6323] [pmic6323_init] Preloader Start..................
+[2] [pmic6323] [pmic6323_init] PMIC CHIP Code = 0x2023
+[2] [pmic6323] [pmic6323_init] powerKey = 0
+[3] [pmic6323] [pmic6323_init] is USB in = 0xB003
+[9] GPU/DRAM EFUSE 01 = 0x4021000
+[10] [HQA][Turbo]GPU/DRAM is not turbo mode
+[24] [pll] [mt_pll_init] MEMPLL calibration pass
+[25] [platform] [PLFM] Init I2C: OK(0)
+[25] [platform] [PLFM] Init PWRAP: OK(0)
+[25] [platform] [PLFM] Init PMIC: OK(0)
+[26] [platform] [PLFM] chip_ver[1]
+[26] [BLDR] Build Time: 20170821_220531
+[27] [BLDR] Ver=0217e99 (build@14-use1b-b-47)
+[27] [wdt] RGU: g_rgu_satus:0
+[28] [wdt] PL P ON
+[28] [wdt] WDT does not trigger reboot
+[28] [kpd] Enter mtk_kpd_gpio_set!
+[1090] [rtc] Check SW Long Press RST = 0xC0
+[1100] GPIO MEM_ID=0 Index=1 Memory Size=1GB
+[1101] mt_get_dram_type() 0x3
+[1101] [EMI] LPDDR3
+[1101] [Check]mt_get_mdl_number 0x1
+[1102] [EMI] eMMC/NAND ID = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+[1102] [EMI] MDL number = 1
+[1103] [EMI] emi_set eMMC/NAND ID = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+[1104] [EMI] DRAMC POP_CHA[4] is 13
+[1104] [EMI] LPDDR3-NV Vcore:72, Vmem:15
+[1104] [EMI][Vcore]0x21E=0x48,0x220=0x48
+[EMI][Vmem]0x554=0xF
+[1105] [EMI] LPDDR3 DRAM Clock = 1600 MHz, MEMPLL MODE = 2
+[1106] [EMI] LPDDR3 DRAM Clock = (1491744, 1600) MHz, MEMPLL MODE = 2
+[1107] init_lpddr3, line 1170, MRS, 63, 0x3F
+[1111] CA training step is 0
+[1112] init_lpddr3, line 1191, MRS, 10, 0xFF000A
+[1112] init_lpddr3, line 1206, MRS, 11, 0x6000B
+[1113] init_lpddr3, line 1222, MRS, 3, 0x20003
+[1113] init_lpddr3, line 1280, MRS, 1, 0xC30001
+[1114] init_lpddr3, line 1294, MRS, 2, 0xA0002
+[1114] LP3, v1
+[1115] TX DQS:4444
+[1115] TX DQM:4444
+[1115] TX DQ 0x200:66666666
+[1115] TX DQ 0x204:66666666
+[1116] TX DQ 0x208:66666666
+[1116] TX DQ 0x20c:66666666
+[1181] [MEM]CONA:2012,conf1:F00485C3
+[1189] [EMI] DRAMC calibration passed
+
+[1201] [MEM] complex R/W mem test pass
+[1202] 0:dram_rank_size:40000000
+[1202] [Dram_Buffer] dram size: 0x40000000
+[1203] [Dram_Buffer] dram_buf_t size: 0x1789C0
+[1203] [Dram_Buffer] part_hdr_t size: 0x200
+[1204] [Dram_Buffer] g_dram_buf start addr: 0x4BE00000
+[1204] [Dram_Buffer] g_dram_buf->msdc_gpd_pool start addr: 0x4BF787C0
+[1205] [Dram_Buffer] g_dram_buf->msdc_bd_pool start addr: 0x4BF788C0
+[1222] [RAM_CONSOLE] sram(0x12C000) sig 0x0 mismatch
+[1222] [RAM_CONSOLE] start:   0x43400000, size: 0x10000
+[1223] [RAM_CONSOLE] sig:     0xC527438
+[1223] [RAM_CONSOLE] off_pl:  0xA8CA3668
+[1224] [RAM_CONSOLE] off_lpl: 0x88CC193A
+[1224] [RAM_CONSOLE] sz_pl:   0xBEDC5112
+[1225] [RAM_CONSOLE] wdt status (0x0)=0x0
+[1384] [platform] [PLFM] Init Boot Device: OK(0)
+[1385] 0:dram_rank_size:40000000
+[1385] 0:dram_rank_size:40000000
+[1385] CUSTOM_CONFIG_MAX_DRAM_SIZE: 0x0000000100000000
+[1386] total_dram_size: 0x0000000040000000, max_dram_size: 0x0000000100000000
+[1387] [GPT_PL]Parsing Primary GPT now...
+[1395] [GPT_PL][0]name=kb, part_id=8, start_sect=0x800, nr_sects=0x800
+[1396] [GPT_PL][1]name=dkb, part_id=8, start_sect=0x1000, nr_sects=0x800
+[1397] [GPT_PL][2]name=lk_a, part_id=8, start_sect=0x1800, nr_sects=0x800
+[1398] [GPT_PL][3]name=tee1, part_id=8, start_sect=0x2000, nr_sects=0x2000
+[1398] [GPT_PL][4]name=lk_b, part_id=8, start_sect=0x4000, nr_sects=0x800
+[1399] [GPT_PL][5]name=tee2, part_id=8, start_sect=0x4800, nr_sects=0x2000
+[1400] [GPT_PL][6]name=expdb, part_id=8, start_sect=0x6800, nr_sects=0x8000
+[1401] [GPT_PL][7]name=misc, part_id=8, start_sect=0xE800, nr_sects=0x400
+[1402] [GPT_PL][8]name=boot_a, part_id=8, start_sect=0xEC00, nr_sects=0x8000
+[1403] [GPT_PL][9]name=boot_b, part_id=8, start_sect=0x16C00, nr_sects=0x8000
+[1404] [GPT_PL][10]name=system_a, part_id=8, start_sect=0x1EC00, nr_sects=0x200000
+[1404] [GPT_PL][11]name=system_b, part_id=8, start_sect=0x21EC00, nr_sects=0x200000
+[1405] [GPT_PL][12]name=cache, part_id=8, start_sect=0x41EC00, nr_sects=0x64000
+[1406] [GPT_PL][13]name=userdata, part_id=8, start_sect=0x482C00, nr_sects=0xA0D3DF
+[1407] [GPT_PL]Success to find valid GPT.
+[1408]
+[PART] blksz: 512B
+[1408] [PART] [0x0000000000100000-0x00000000001FFFFF] "kb" (2048 blocks)
+[1409] [PART] [0x0000000000200000-0x00000000002FFFFF] "dkb" (2048 blocks)
+[1410] [PART] [0x0000000000300000-0x00000000003FFFFF] "lk_a" (2048 blocks)
+[1411] [PART] [0x0000000000400000-0x00000000007FFFFF] "tee1" (8192 blocks)
+[1412] [PART] [0x0000000000800000-0x00000000008FFFFF] "lk_b" (2048 blocks)
+[1412] [PART] [0x0000000000900000-0x0000000000CFFFFF] "tee2" (8192 blocks)
+[1413] [PART] [0x0000000000D00000-0x0000000001CFFFFF] "expdb" (32768 blocks)
+[1414] [PART] [0x0000000001D00000-0x0000000001D7FFFF] "misc" (1024 blocks)
+[1415] [PART] [0x0000000001D80000-0x0000000002D7FFFF] "boot_a" (32768 blocks)
+[1416] [PART] [0x0000000002D80000-0x0000000003D7FFFF] "boot_b" (32768 blocks)
+[1417] [PART] [0x0000000003D80000-0x0000000043D7FFFF] "system_a" (2097152 blocks)
+[1418] [PART] [0x0000000043D80000-0x0000000083D7FFFF] "system_b" (2097152 blocks)
+[1419] [PART] [0x0000000083D80000-0x000000009057FFFF] "cache" (409600 blocks)
+[1419] [PART] [0x0000000090580000-0x00000001D1FFBDFF] "userdata" (10539999 blocks)
+[1420] [LIB] HW ENC
+[1421] [BLDR] Tool connection is unlocked
+[1421] [platform] Checking for flashtool button...
+[1422] Device APC domain init setup:
+
+[1422] Domain Setup (0x0)
+[1422] Domain Setup (0x0)
+[1423] Device APC domain after setup:
+[1423] Domain Setup (0x40C00000)
+[1424] Domain Setup (0x182545)
+[1427] mmc_rpmb_get_wc, mmc_set_part_config done!!
+[1428] mmc_rpmb_send_command -> req_type=0x1, type=0x2, blks=0x1
+[1432] mmc_rpmb_send_command -> req_type=0x2, type=0x2, blks=0x1
+[1435] mmc_rpmb_get_wc, rpmb_req.result=0
+[1435] [RPMB] RPMB Provisioned
+[1439] mmc_rpmb_send_command -> req_type=0x1, type=0x4, blks=0x1
+[1443] mmc_rpmb_send_command -> req_type=0x2, type=0x4, blks=0x1
+[1455] [RPMB] Valid anti-rollback block exists
+[1456] (B)tz_dapc_sec_init is 0x0
+[1456] (E)tz_dapc_sec_init is 0x1
+[1462] [BCB] BCB Info: version 1
+[1463] [BCB] Part 0 - prio=15 tries=0 success=1
+[1463] [BCB] Part 1 - prio=14 tries=3 success=0
+[1464] [BCB] BCB active slot = 0
+[1465] [PART] partition hdr (1)
+[1465] [PART] Image with part header
+[1466] [PART] name : LK
+[1466] [PART] addr : FFFFFFFFh mode : -1
+[1467] [PART] size : 356620
+[1467] [PART] magic: 58881688h
+[1467] 0:dram_rank_size:40000000
+[1468] DRAM size is 0x40000000
+[1488] [SECURITY]: Production device
+[1489] [PART] Target is production device
+[1489] [PART] Verifying LK, total size (including signature) = 356620
+[1490] [PART] Device is RPMB provisioned, need to verify LK
+[1559] [VERIFY_LK] Succeed to pass the LK verification, version of LK is 0x1.
+[1560] [PART] LK verified successfully
+[1560]
+[PART] load "lk_a" from 0x0000000000300200 (dev) to 0x4BD00000 (mem) [SUCCESS]
+[1561] [PART] load speed: 3785KB/s, 356620 bytes, 92ms
+[1565] [PART] partition hdr (1)
+[1565] [PART] Image with part header
+[1565] [PART] name : ATF
+[1566] [PART] addr : FFFFFFFFh mode : 0
+[1566] [PART] size : 46080
+[1567] [PART] magic: 58881688h
+[1567] 0:dram_rank_size:40000000
+[1567] DRAM size is 0x40000000
+[1571]
+[PART] load "tee1" from 0x0000000000400200 (dev) to 0x43001000 (mem) [SUCCESS]
+[1572] [PART] load speed: 15000KB/s, 46080 bytes, 3ms
+[1641] [PART] partition hdr (1)
+[1641] [PART] Image with part header
+[1642] [PART] name : TEE
+[1642] [PART] addr : 600000h mode : 0
+[1642] [PART] size : 2594816
+[1643] [PART] magic: 58881688h
+[1643] mblock[0].start: 0x0000000040000000, sz: 0x0000000040000000, limit: 0x0000000100000000, max_addr: 0x0000000000000000, max_rank: 0, target: -1, mblock[].rank: 0
+[1645] mblock_reserve dbg[0]: 1, 1, 1, 1
+[1645] mblock_reserve: 000000007F800000 - 0000000080000000 from mblock 0
+[1646] 0:dram_rank_size:40000000
+[1647] DRAM size is 0x40000000
+[1704]
+[PART] load "tee1" from 0x000000000040B800 (dev) to 0x7FA00000 (mem) [SUCCESS]
+[1705] [PART] load speed: 44456KB/s, 2594816 bytes, 57ms
+[1842] [TZ_INIT] TEE start entry : 0x7FA00000
+[1843] [TZ_INIT] MEID : 0x66, 0x21, 0x5, 0x20
+[1843] [TZ_INIT] MEID : 0x55, 0x2C, 0xEE, 0x3A
+[1844] [TZ_INIT] MEID : 0x57, 0x7, 0xF, 0xBB
+[1844] [TZ_INIT] MEID : 0x35, 0x65, 0xD4, 0x8B
+[1845] [BLDR] bldr load tee part ret=0x0, addr=0x43001000
+[1845] [BLDR] boot part. not found
+[1846] [BLDR] part_load_images ret=0x0
+[1846] [ANTI-ROLLBACK] Processing anti-rollback data
+
+[1852] mmc_rpmb_send_command -> req_type=0x1, type=0x4, blks=0x1
+[1856] mmc_rpmb_send_command -> req_type=0x2, type=0x4, blks=0x1
+[1859] [ANTI-ROLLBACK] PL: 5 TEE: 102 LK: 1
+[1860] [ANTI-ROLLBACK] Checksum validated
+[1860] [ANTI-ROLLBACK] All checks passed
+[1861] [platform] [PLFM] NON SECURE SRAM ADDR: 0x12C000
+[1861] [platform] [PLFM] NON SECURE SRAM SIZE: 0x4000
+[1862] [platform] [PLFM] PL_VERSION = 0.1.00
+[1862] [platform] [PLFM] md_type[0] = 0
+[1863] [platform] [PLFM] md_type[1] = 0
+[1863] [platform]
+[PLFM] boot reason: 0
+[1864] [platform] [PLFM] boot mode: 0
+[1864] [platform] [PLFM] META COM0: 0
+[1865] [platform] [PLFM] <0x4BE5E210>: 0x0
+[1865] [platform] [PLFM] boot time: 1861ms
+[1866] [platform] [PLFM] DDR reserve mode: enable = 0, success = 0
+[1866] [platform] [PLFM] dram_buf_size: 0x1789C0
+[1867] [platform] [PLFM] smc_boot_opt: 0x0
+[1867] [platform] [PLFM] lk_boot_opt: 0x6
+[1868] [platform] [PLFM] kernel_boot_opt: 0x4
+[1868] [platform] [PLFM] tee_reserved_mem: 0x000000007F800000, 0x0000000000800000
+[1869] [TZ_INIT] hwuid[0] : 0x20052166
+[1870] [TZ_INIT] hwuid[1] : 0x3AEE2C55
+[1870] [TZ_INIT] hwuid[2] : 0xBB0F0757
+[1870] [TZ_INIT] hwuid[3] : 0x8BD46535
+[1871] [TZ_INIT] HRID[0] : 0x238D1936
+[1871] [TZ_INIT] HRID[1] : 0x8FD98512
+[1872] [TZ_INIT] atf_log_port : 0x11002000
+[1872] [TZ_INIT] atf_log_baudrate : 0xE1000
+[1873] [TZ_INIT] atf_irq_num : 281
+[1873] [TZ_INIT] ATF log buffer start : 0x7F800000
+[1874] [TZ_INIT] ATF log buffer size : 0x200000
+[1874] [TZ_INIT] ATF aee buffer start : 0x7F9FC000
+[1875] [TZ_INIT] ATF aee buffer size : 0x4000
+[1875] [BLDR] Others, jump to ATF
+[1876]
+[BLDR] jump to 0x4BD00000
+[1876] [BLDR] <0x4BD00000>=0xEA000007
+[1877] [BLDR] <0x4BD00004>=0xEA00C58D
+[1877] [TZ_SEC_CFG] SRAMROM Secure Addr 0x2C000
+[1878] [TZ_SEC_CFG] SRAMROM Secure Control 0x0
+[1878] [TZ_SEC_CFG] SRAMROM Secure Control 0xB69
+[1879] [TZ_SEC_CFG] SRAMROM Secure Control 0x1B680B69
+[1879]  MPU [LOCK
+[1879] [TZ_EMI_MPU] MPU [0x7FA00000-0x7FFFFFFF]
+[1880] [TZ_INIT] set secure memory protection : 0x7FA00000, 0x7FFFFFFF (OPT)
+[1881]  MPU [LOCK
+[1881] [TZ_EMI_MPU] MPU [0x43000000-0x4302FFFF]
+[1882] [TZ_INIT] set secure memory protection : 0x43000000, 0x4302FFFF
+[1882] [TZ_INIT] Jump to ATF, then 0x7FA00000 and 0x4BD00000
+[ATF][     0.000001]LK boot argument
+[ATF][     0.000440]location=0x4be5e208 size=0x180
+[ATF][     0.001047]atf_magic=0x4d415446
+[ATF][     0.001536]tee_support=0x1
+[ATF][     0.001965]tee_entry=0x7fa00000
+[ATF][     0.002454]tee_boot_arg_addr=0x43000100
+[ATF][     0.003035]atf_log_port=0x11002000
+[ATF][     0.003559]atf_log_baudrate=0xe1000
+[ATF][     0.004093]atf_log_buf_start=0x7f800000
+[ATF][     0.004674]atf_log_buf_size=0x200000
+[ATF][     0.005220]atf_aee_debug_buf_start=0x7f9fc000
+[ATF][     0.005871]atf_aee_debug_buf_size=0x4000
+[ATF][     0.006463]atf_irq_num=281
+[ATF][     0.006892]BL33_START_ADDRESS=0x4bd00000
+[ATF][     0.007486]bl31_setup
+[ATF][     0.007859]RESET_TO_BL31
+[ATF][     0.008266]mmap atf buffer : 0x7f800000, 0x200000
+[ATF][     0.010718]sta=0x0 int=0xffc
+[ATF][     0.011121]power_on: true
+[ATF][     0.032978]mt_log_setup - atf_buf_addr : 0x7f800100
+[ATF][     0.033617]mt_log_setup - atf_buf_size : 0x1dbf00
+[ATF][     0.034263]mt_log_setup - atf_write_pos : 0x7f800100
+[ATF][     0.034942]mt_log_setup - atf_read_pos : 0x7f800100
+[ATF][     0.035609]mt_log_setup - atf_buf_lock : 0x0
+[ATF][     0.036201]mt_log_setup - mt_log_buf_end : 0x7f9dbfff
+[ATF][     0.036891]ATF log service is registered (0x7f800000, aee:0x7f9fc000)
+[ATF][     0.037757]BL31 Built : 20:07:49, Jul 14 2017 Ver=6cf4c3f build@14-use1b-b-36
+[ATF][     0.038784][BL31] Jump to secure OS for initialization!
+EMI_MPUS = 0, EMI_MPUT = 0
+[DAPC] [TEE] dapc_register_ext_handler is called by Type_2B slave(5)
+[ATF][     0.041566]LK is AArch32
+[ATF][     0.041918]LK start_addr=x0x4bd00000
+[ATF][     0.042425][BL31] Final dump!
+[0] kernel_boot_opt=4
+[0] 64Bit Kernel
+[0] SKIP sw sram repair
+[LK_PMIC_INIT_SETTING_V1] PMIC Chip = 0x2023
+chr detection : 1
+[0] LK Ver=D6B4146 (BUILD@14_USE1B_B_47)
+[0] LK Build Time=20170821_223408
+[10] platform_init()
+[160] [mt_part_register_device]
+[160] [GPT_LK]Parsing Primary GPT now...
+[170] [GPT_LK][0]name=kb, part_id=8, start_sect=0x800, nr_sects=0x800
+[170] [GPT_LK][1]name=dkb, part_id=8, start_sect=0x1000, nr_sects=0x800
+[170] [GPT_LK][2]name=lk_a, part_id=8, start_sect=0x1800, nr_sects=0x800
+[170] [GPT_LK][3]name=tee1, part_id=8, start_sect=0x2000, nr_sects=0x2000
+[170] [GPT_LK][4]name=lk_b, part_id=8, start_sect=0x4000, nr_sects=0x800
+[170] [GPT_LK][5]name=tee2, part_id=8, start_sect=0x4800, nr_sects=0x2000
+[170] [GPT_LK][6]name=expdb, part_id=8, start_sect=0x6800, nr_sects=0x8000
+[170] [GPT_LK][7]name=misc, part_id=8, start_sect=0xe800, nr_sects=0x400
+[170] [GPT_LK][8]name=boot_a, part_id=8, start_sect=0xec00, nr_sects=0x8000
+[170] [GPT_LK][9]name=boot_b, part_id=8, start_sect=0x16c00, nr_sects=0x8000
+[180] [GPT_LK][10]name=system_a, part_id=8, start_sect=0x1ec00, nr_sects=0x200000
+[180] [GPT_LK][11]name=system_b, part_id=8, start_sect=0x21ec00, nr_sects=0x200000
+[180] [GPT_LK][12]name=cache, part_id=8, start_sect=0x41ec00, nr_sects=0x64000
+[180] [GPT_LK][13]name=userdata, part_id=8, start_sect=0x482c00, nr_sects=0xa0d3df
+[180] [GPT_LK] EMMC_PART_USER size = 0x1d2000000
+[180] [GPT_LK]Success to find valid GPT.
+[180] idme_initialize
+[190] [PART_LK][get_part] para
+[LK_ENV]read_env_area fail, ret = fffffffe
+[LK_ENV]no valid env
+enable  smi  clk, CG0 0xfffffffc, CG1 0xffffffff, dummy CON = 0xfffffffc
+enable  mutex  clk, CG0 0xfffffffc, CG1 0xffffffff, dummy CON = 0xfffffffc
+enable  ovl1  clk, CG0 0xfffff7fc, CG1 0xffffffff, dummy CON = 0xfffff7fc
+enable  ovl0  clk, CG0 0xfffff3fc, CG1 0xffffffff, dummy CON = 0xfffff3fc
+enable  dsi0  clk, CG0 0xfffff3fc, CG1 0xfffffff3, dummy CON = 0xfffff3fc
+disable ovl1  clk, CG0 0xfffffbfc, CG1 0xfffffff3,dummy CON = 0xfffffbfc
+disable ovl0  clk, CG0 0xfffffffc, CG1 0xfffffff3,dummy CON = 0xfffffffc
+disable dsi0  clk, CG0 0xfffffffc, CG1 0xffffffff,dummy CON = 0xfffffffc
+[200] mblock[0].start: 0x40000000, sz: 0x3f800000, limit: 0x100000000, max_addr: 0x0, max_rank: 0, target: -1, mblock[].rank: 0
+[200] mblock_reserve dbg[0]: 1, 1, 1, 1
+[200] mblock_reserve for kernel: 7e800000 - 7f800000 from mblock 0
+[200] FB base = 0x7e800000, FB size = 16777216
+kedump mini start
+kedump: boot_reason(0)
+RAM_CONSOLE. sram(0x12c000) sig 0 mismatch
+RAM_CONSOLE. start: 0x43400000, size: 0x10000
+RAM_CONSOLE. lk size mismatch 0 + c0 != 100
+[200] detecting pmic just reset
+[mboot_recovery_load_misc]: size is 6144
+[mboot_recovery_load_misc]: misc_addr is 0x4bd7828c
+[200] [PART_LK][get_part] MISC
+[200] MT65XX_FACTORY_KEY 0x1
+ISSI_ESOL: begin anim: 290
+[340] board_id 0100001400000017 read
+[340] board_id version 5 found
+ISSI_ESOL: New chip detected, setting pwm frequency
+ISSI_ESOL: end anim: 1950
+amzn_verify_limited_unlock: Invalid unlock code
+[1950] mtk detect key function key = 0
+[1950] Key Uber:Released
+[1950] mtk detect key function key = 0
+[2080] [PART_LK][get_part] misc
+[2080] [LK_BOOT] Load 'misc' partition to 0x4BD6B5D0 (872 bytes in 6 ms)
+[2090] [PART_LK][get_part] boot_a
+[2090] [PART_LK][get_part] boot_a
+[2090] part page addr is 0x1d80000
+
+============================================================
+[2090] [LK_BOOT] Android Partition Name                : boot_a
+[2090] [LK_BOOT] Android Boot IMG Hdr - Magic          : ANDROID
+[2090] [LK_BOOT] Android Boot IMG Hdr - Kernel Size    : 0x00563BC6
+[2090] [LK_BOOT] Android Boot IMG Hdr - Kernel Address : 0x40080000
+[2090] [LK_BOOT] Android Boot IMG Hdr - Rootfs Size    : 0x001CDE2C
+[2090] [LK_BOOT] Android Boot IMG Hdr - Rootfs Address : 0x44000000
+[2090] [LK_BOOT] Android Boot IMG Hdr - Tags Address   : 0x48000000
+[2090] [LK_BOOT] Android Boot IMG Hdr - Page Size      : 0x00000800
+[2100] [LK_BOOT] Android Boot IMG Hdr - Command Line   : bootopt=64S3,32N2,64N2 firmware_class.path=/system/vendor/firmware
+============================================================
+ > page count of kernel image = 2760
+ > kernel mem offset = 0x45000000
+ > rootfs mem offset = 0x45564000
+ > boot image size = 0x733000
+[2100] [PART_LK][get_part] boot_a
+check mkimg header
+
+=========================================
+[2100] [LK_BOOT] KERNEL magic number : 0x58881688
+[2100] [LK_BOOT] KERNEL size         : 0x5639c6
+=========================================
+mkimg header exist in kernel image
+
+read the data of boot_a (size = 0x733000)
+ > from - 0x0000000001d80800 (skip boot img hdr)
+ > to   - 0x44fffe00 (starts with kernel img hdr)
+amzn_verify_limited_unlock: Invalid unlock code
+Certificate verified against PRODUCTION CA
+Image hash matched
+==============
+Image Metadata
+==============
+product:sonar
+signer:CodeSigner
+Image AUTHENTICATED with PRODUCTION certificate
+[2790] [LK_BOOT] ROOTFS partition magic not match
+no mkimg header in ramdisk image
+[2790] [PROFILE] ------- load boot.img takes 711 ms --------
+[2790] testing dt: version=min
+[2790] invalid dt
+[2790] testing dt: version=hvt
+[2790] hvt dt found
+[3030] model=MT8163
+[3030] cluster-0: 4 core
+[3030] mblock[0].start: 0x40000000, size: 0x3f800000
+[3060] Not Support VCORE DVFS
+[3060] PTP_INFO Only support in MT6795
+[3060] tee_reserved_mem not supported
+[3060] [LK] non_secure_sram (0x12c000, 0x4000)
+[3060] [PROFILE] ------- boot_time takes 3077 ms --------
+[LK_ENV]get_env hibboot
+[LK_ENV]get_env resume
+[3060] resume = NULL
+[3060] booting linux @ 0x40080000, ramdisk @ 0x44000000 (1891884)
+[3060] DRAM Rank :1
+[3060] DRAM Rank[0] Start = 0x40000000, Size = 0x3f800000
+[3060] cmdline: console=tty0 console=ttyS0,921600n1 console=ttyMT0,921600n1 earlycon=uart8250,mmio32,0x11002000 root=/dev/ram vmalloc=496M androidboot.hardware=mt8163 androidboot.unlocked_kernel=false androidboot.rpmb_state=1 androidboot.secure_cpu=1 androidboot[3060] lk boot time = 3077 ms
+[3060] lk boot mode = 0
+[3060] lk boot reason = power_key
+[3060] wdt boot reason = 0
+[3060] lk finished --> jump to linux kernel 64Bit
+
+[3060]
+[LK]jump to K64 0x40080000
+[    0.000000] <0> (0)[0:swapper]Initializing cgroup subsys cpuset
+[    0.000000] <0> (0)[0:swapper]Initializing cgroup subsys cpu
+[    0.000000] <0> (0)[0:swapper]Initializing cgroup subsys cpuacct
+[    0.000000] <0> (0)[0:swapper][name:main&]Linux version 3.18.19+ (build@14-use1b-b-32) (gcc version 4.9 20140514 (prerelease) (GCC) ) #1 SMP PREEMPT Wed Oct 11 03:30:53 UTC 2017
+[    0.000000] <0> (0)[0:swapper]CPU: AArch64 Processor [410fd033] revision 3
+[    0.000000] <0> (0)[0:swapper][name:cpuinfo&]Detected VIPT I-cache on CPU0
+[    0.000000] <0> (0)[0:swapper][name:cpu_errata&]alternative: enabling workaround for ARM erratum 845719
+[    0.000000] <0> (0)[0:swapper][name:earlycon&]Early serial console at MMIO32 0x11002000 (options '')
+[    0.000000] <0> (0)[0:swapper][name:printk&]bootconsole [uart0] enabled
+[    0.000000] <0> (0)[0:swapper][name:efi&]efi: Getting EFI parameters from FDT:
+[    0.000000] <0> (0)[0:swapper][name:efi&]efi: UEFI not found.
+[    0.000000] <0> (0)[0:swapper][PHY layout]atf-reserved-memory@43000000   :   0x43000000 - 0x4302ffff (0x30000)
+[    0.000000] <0> (0)[0:swapper][name:mtk_ram_console&][memblock]ram_console-reserve-memory: 0x43400000 - 0x43410000 (0x10000)
+[    0.000000] <0> (0)[0:swapper][name:of_reserved_mem&]Reserved memory: initialized node ram_console-reserved-memory@44400000, compatible id mediatek,ram_console
+[    0.000000] <0> (0)[0:swapper][PHY layout]kernel   :   0x40000000 - 0x42ffffff (0x3000000)
+[    0.000000] <0> (0)[0:swapper][PHY layout]kernel   :   0x43030000 - 0x7f7fffff (0x3c7d0000)
+[    0.000000] <0> (0)[0:swapper][name:psci&]psci: probing for conduit method from DT.
+[    0.000000] <0> (0)[0:swapper][name:psci&]psci: Using PSCI v0.1 Function IDs from DT
+[    0.000000] <0> (0)[0:swapper][name:percpu&]PERCPU: Embedded 15 pages/cpu @ffffffc03f778000 s22016 r8192 d31232 u61440
+[    0.000000] <0> (0)[0:swapper]Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 256492
+[    0.000000] <0> (0)[0:swapper][name:main&]Kernel command line: console=tty0 console=ttyS0,921600n1 console=ttyMT0,921600n1 earlycon=uart8250,mmio32,0x11002000 root=/dev/ram vmalloc=496M androidboot.hardware=mt8163 androidboot.unlocked_kernel=false androidboot.rpmb_state=1 androidboot.secure_cpu=1 androidboot.prod=1 androidboot.pl_version=5 androidboot.tee_version=102 androidboot.lk_version=1 androidboot.pl_build_desc=0217e99-20170821_220531 androidboot.lk_build_desc=d6b4146-20170821_223408 bootopt=64S3,32N2,64N2 firmware_class.path=/system/vendor/firmware androidboot.selinux=enforce androidboot.slot_suffix=_a printk.disable_uart=1 bootprof.pl_t=1861 bootprof.lk_t=3077 boot_reason=0 androidboot.serialno=**************** androidboot.bootreason=power_key nt35521_id=0
+[    0.000000] <0> (0)[0:swapper]PID hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] <0> (0)[0:swapper]Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.000000] <0> (0)[0:swapper]Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+[    0.000000] <0> (0)[0:swapper]Memory: 1008696K/1040192K available (7827K kernel code, 692K rwdata, 3260K rodata, 396K init, 846K bss, 31496K reserved)
+[    0.000000] <0> (0)[0:swapper][name:init&]Virtual kernel memory layout:
+[    0.000000] <0>    vmalloc : 0xffffff8000000000 - 0xffffffbdffff0000   (   247 GB)
+[    0.000000] <0>    vmemmap : 0xffffffbe00000000 - 0xffffffbfc0000000   (     7 GB maximum)
+[    0.000000] <0>              0xffffffbe00e00000 - 0xffffffbe01be4000   (    13 MB actual)
+[    0.000000] <0>    PCI I/O : 0xffffffbffa000000 - 0xffffffbffb000000   (    16 MB)
+[    0.000000] <0>    fixed   : 0xffffffbffbdfe000 - 0xffffffbffbdff000   (     4 KB)
+[    0.000000] <0>    modules : 0xffffffbffc000000 - 0xffffffc000000000   (    64 MB)
+[    0.000000] <0>    memory  : 0xffffffc000000000 - 0xffffffc03f800000   (  1016 MB)
+[    0.000000] <0>      .init : 0xffffffc000b55000 - 0xffffffc000bb8000   (   396 KB)
+[    0.000000] <0>      .text : 0xffffffc000080000 - 0xffffffc000b54d44   ( 11092 KB)
+[    0.000000] <0>      .data : 0xffffffc000bc0000 - 0xffffffc000c6d1e0   (   693 KB)
+[    0.000000] <0> (0)[0:swapper][name:slub&]SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] <0> (0)[0:swapper/0][name:tree&]Preemptible hierarchical RCU implementation.
+[    0.000000] <0> (0)[0:swapper/0][name:tree&] CONFIG_RCU_FANOUT set to non-default value of 32
+[    0.000000] <0> (0)[0:swapper/0][name:tree&] RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=4.
+[    0.000000] <0> (0)[0:swapper/0][name:tree&]RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[    0.000000] <0> (0)[0:swapper/0]NR_IRQS:64 nr_irqs:64 0
+[    0.000000] <0> (0)[0:swapper/0][name:arm_arch_timer&]Architected cp15 timer(s) running at 13.00MHz (phys).
+[    0.000005] <0> (0)[0:swapper/0][name:sched_clock&]sched_clock: 56 bits at 13MHz, resolution 76ns, wraps every 2643056803840ns
+[    0.001574] <0> (0)[0:swapper/0][name:mt_gpt&]mt_gpt_init: tmr_regs=0xffffff800001a000, tmr_irq=5, freq=13000000
+[    0.002918] <0> (0)[0:swapper/0][name:sched_clock&]sched_clock: 32 bits at 13MHz, resolution 76ns, wraps every 330382100403ns
+[    0.002923] <0> (0)[0:swapper/0][name:mt_gpt&]setup_clksrc1: mt_cyclecounter.mult=0x99d89d8a mt_cyclecounter.shift=0x19
+[    0.004671] <0> (0)[0:swapper/0][name:cpuxgpt_mt8163&]mt_cpuxgpt_init: irq0=6, irq1=7, irq2=8, irq3=9
+[    0.006768] <0> (0)[0:swapper/0][name:printk&]console [ttyMT0] enabled
+[    0.007649] <0> (0)[0:swapper/0][name:printk&]bootconsole [uart0] disabled
+

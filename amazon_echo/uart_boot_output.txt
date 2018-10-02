@@ -1,0 +1,111 @@
+<break>
+<break>
+<break>
+<break>
+<break x 005>
+<break>
+␍␊
+␍␊
+Texas Instruments X-Loader 1.51 (Oct  2 2016 - 09:08:33)␍␊
+LAB126 Rev 0␍␊
+Starting X-loader on mmc-0...failed! ␍␊
+Starting X-loader on mmc-0...failed! ␍␊
+Booting from eMMC . . .␍␊
+Starting X-loader on mmc-1...Reading boot sector␍␊
+␍␊
+156780 Bytes Read from MMC␍␊
+Starting OS Bootloader from MMC...␍␊
+Starting OS Bootloader...(time = 792 ms)␍␊
+␍␊
+␍␊
+U-Boot 2010.06-00005-gcef7b7a (Oct 02 2016 - 02:08:34)␍␊
+␍␊
+OMAP34xx/35xx-GP ES2.1, CPU-OPP2 L3-165MHz␍␊
+OMAP3 LAB126 board + LPDDR/NAND␍␊
+I2C:   ready␍␊
+DRAM:  256 MiB␍␊
+MMC:   OMAP SD/MMC: 0, OMAP SD/MMC: 1␍␊
+Using default environment␍␊
+␍␊
+In:    serial␍␊
+Out:   serial␍␊
+Err:   serial␍␊
+OMAP3 Lab126 Rev: 0x1a␍␊
+Die ID #654200029e3800000136f4fd1502f01f␍␊
+76 bytes read in 10 ms (6.8 KiB/s)␍␊
+401 bytes read in 7 ms (55.7 KiB/s)␍␊
+failed to get powersave var␍␊
+824 bytes read in 12 ms (66.4 KiB/s)␍␊
+Animation Version = 3␍␊
+File System is consistent␍␊
+file found deleting␍␊
+update journal finished␍␊
+File System is consistent␍␊
+update journal finished␍␊
+Card did not respond to voltage select!␍␊
+Invalid uuid. Booting by block dev ␍␊
+booting ...main-B␍␊
+OMAP3 Lab126 Rev: 0x1a␍␊
+*␍␊
+Booting from mmc ...␍␊
+2604748 bytes read in 557 ms (4.5 MiB/s)␍␊
+## Booting kernel from Legacy Image at 82000000 ...␍␊
+   Image Name:   Linux-2.6.37␍␊
+   Image Type:   ARM Linux Kernel Image (uncompressed)␍␊
+   Data Size:    2604684 Bytes = 2.5 MiB␍␊
+   Load Address: 80008000␍␊
+   Entry Point:  80008000␍␊
+   Verifying Checksum ... OK␍␊
+   Loading Kernel Image ... OK␍␊
+OK␍␊
+␍␊
+Starting kernel ...␍␊
+␍␊
+[    0.000000] Trying to install type control for IRQ385␍␊
+[    0.000000] Trying to set irq flags for IRQ385␍␊
+[    0.150268] mtdoops: mtd device (mtddev=name/number) must be supplied␍␊
+[    0.160552] ks8851 spi1.0: failed to read device ID␍␊
+[    0.197601] codec: aic32xx_i2c_probe : snd_soc_register_codec success␍␊
+[    0.242034] Power Management for TI OMAP3.␍␊
+[    0.251861] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)␍␊
+[    2.346374] DSPLINK Module (1.65.01.05_eng) created on Date: Oct  2 2016 Time: 09:11:51␍␊
+Shared memory /QSpeakerIn.shm deletion failed.␍␊
+␍␊
+Shared memory /QEarconIn.shm deletion failed.␍␊
+␍␊
+Shared memory /AudiodCmd.shm deletion failed.␍␊
+␍␊
+Shared memory /BMicsOut.shm deletion failed.␍␊
+␍␊
+Shared memory /BPhoneMic.shm deletion failed.␍␊
+␍␊
+Shared memory /BVoIPMic.shm deletion failed.␍␊
+␍␊
+Shared memory /BTraitReport.shm deletion failed.␍␊
+␍␊
+Shared memory /BAsrMetadata.shm deletion failed.␍␊
+␍␊
+Shared memory /BRemoteMic.shm deletion failed.␍␊
+␍␊
+Shared memory /BPlaybackAvgPower.shm deletion failed.␍␊
+␍␊
+CGRE[798]: Started the CGroup Rules Engine Daemon.␍␍␊
+shared memory /QSpeakerIn.shm created successfully. (byte_num=95232.)␍␊
+shared memory /QEarconIn.shm created successfully. (byte_num=16000.)␍␊
+shared memory /AudiodCmd.shm created successfully. (byte_num=3000.)␍␊
+shared memory /BMicsOut.shm created successfully. (msg_size=2, msg_num=1048575.)␍␊
+shared memory /BPhoneMic.shm created successfully. (msg_size=2, msg_num=16000.)␍␊
+shared memory /BRemoteMic.shm created successfully. (msg_size=2, msg_num=16000.)␍␊
+shared memory /BVoIPMic.shm created successfully. (msg_size=2, msg_num=16000.)␍␊
+shared memory /BPlaybackAvgPower.shm created successfully. (msg_size=4, msg_num=50.)␍␊
+shared memory /BTraitReport.shm created successfully. (msg_size=24, msg_num=128.)␍␊
+shared memory /BAsrMetadata.shm created successfully. (msg_size=1, msg_num=131072.)␍␊
+CMEM Shared Sizes: Audio A2D 9612 82836 Aux A2D 240276 1600276␍␊
+<break>
+<break>
+<break>
+<break x 002>
+<break x 002>
+<break x 005>
+ <0x02><0x0c>p<0xb5><0xee>fbf@<break x 002>
+

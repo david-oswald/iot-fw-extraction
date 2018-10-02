@@ -1,0 +1,389 @@
+<break>
+␍␊
+␍␊
+Texas Instruments X-Loader 1.51 (Jun 29 2016 - 17:23:55)␍␊
+LAB126 Rev 0␍␊
+Starting X-loader on mmc-0...custom_efi: invalid signature␍␊
+Reading boot sector␍␊
+␍␊
+153936 Bytes Read from MMC␍␊
+Starting OS Bootloader from MMC...␍␊
+Starting OS Bootloader...(time = 796 ms)␍␊
+␍␊
+␍␊
+U-Boot 2010.06 (Jun 29 2016 - 23:38:20)␍␊
+␍␊
+OMAP34xx/35xx-GP ES2.1, CPU-OPP2 L3-165MHz␍␊
+OMAP3 LAB126 board + LPDDR/NAND␍␊
+I2C:   ready␍␊
+DRAM:  256 MiB␍␊
+MMC:   OMAP SD/MMC: 0, OMAP SD/MMC: 1␍␊
+Using default environment␍␊
+␍␊
+In:    serial␍␊
+Out:   serial␍␊
+Err:   serial␍␊
+OMAP3 Lab126 Rev: 0x1a␍␊
+Die ID #654200029e3800000136f4fd1502f01f␍␊
+76 bytes read in 10 ms (6.8 KiB/s)␍␊
+401 bytes read in 8 ms (48.8 KiB/s)␍␊
+824 bytes read in 12 ms (66.4 KiB/s)␍␊
+loading default boot pattern␍␊
+File System is consistent␍␊
+file found deleting␍␊
+update journal finished␍␊
+File System is consistent␍␊
+update journal finished␍␊
+Invalid uuid. Booting by block dev ␍␊
+booting ...main-B␍␊
+OMAP3 Lab126 Rev: 0x1a␍␊
+*<0x08><0x08><0x08> 9 <0x08><0x08><0x08> 8 <0x08><0x08><0x08> 7 <0x08><0x08><0x08> 6 <0x08><0x08><0x08> 5 <0x08><0x08><0x08> 4 <0x08><0x08><0x08> 3 <0x08><0x08><0x08> 2 <0x08><0x08><0x08> 1 <0x08><0x08><0x08> 0 ␍␊
+Booting from mmc ...␍␊
+2605284 bytes read in 492 ms (5 MiB/s)␍␊
+## Booting kernel from Legacy Image at 82000000 ...␍␊
+   Image Name:   Linux-2.6.37␍␊
+   Image Type:   ARM Linux Kernel Image (uncompressed)␍␊
+   Data Size:    2605220 Bytes = 2.5 MiB␍␊
+   Load Address: 80008000␍␊
+   Entry Point:  80008000␍␊
+   Verifying Checksum ... OK␍␊
+   Loading Kernel Image ... OK␍␊
+OK␍␊
+␍␊
+Starting kernel ...␍␊
+␍␊
+[    0.000000] Initializing cgroup subsys cpuset␍␊
+[    0.000000] Initializing cgroup subsys cpu␍␊
+[    0.000000] Linux version 2.6.37 (jenkins@westfall) (gcc version 4.5.4 20120305 (prerelease) (GCC) ) #1 Wed Sep 2 20:25:41 PDT 2015␍␊
+[    0.000000] CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c53c7f␍␊
+[    0.000000] CPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache␍␊
+[    0.000000] Machine: OMAP3 EVM␍␊
+[    0.000000] Memory policy: ECC disabled, Data cache writeback␍␊
+[    0.000000] OMAP3630 ES1.2 (l2cache iva neon isp 192mhz_clk )␍␊
+[    0.000000] SRAM: Mapped pa 0x40200000 to va 0xfe400000 size: 0x10000␍␊
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 50288␍␊
+[    0.000000] Kernel command line: console=ttyO0,115200n8 root=/dev/mmcblk0p6 ro rootfstype=ext3 rootwait mem=200M@0x80000000 mpurate=1000 earlyprintk␍␊
+[    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)␍␊
+[    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)␍␊
+[    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)␍␊
+[    0.000000] allocated 1024000 bytes of page_cgroup␍␊
+[    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups␍␊
+[    0.000000] Memory: 128MB 70MB = 198MB total␍␊
+[    0.000000] Memory: 194340k/194340k available, 10460k reserved, 0K highmem␍␊
+[    0.000000] Virtual kernel memory layout:␍␊
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)␍␊
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)␍␊
+[    0.000000]     DMA     : 0xffc00000 - 0xffe00000   (   2 MB)␍␊
+[    0.000000]     vmalloc : 0xcd000000 - 0xf8000000   ( 688 MB)␍␊
+[    0.000000]     lowmem  : 0xc0000000 - 0xcc800000   ( 200 MB)␍␊
+[    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)␍␊
+[    0.000000]       .init : 0xc0008000 - 0xc0036000   ( 184 kB)␍␊
+[    0.000000]       .text : 0xc0036000 - 0xc04db61c   (4758 kB)␍␊
+[    0.000000]       .data : 0xc04dc000 - 0xc05196e0   ( 246 kB)␍␊
+[    0.000000] NR_IRQS:385␍␊
+[    0.000000] Clocking rate (Crystal/Core/MPU): 19.2/400/600 MHz␍␊
+[    0.000000] omap_hwmod: i2c1: softreset failed (waited 10000 usec)␍␊
+[    0.000000] omap_hwmod: i2c2: softreset failed (waited 10000 usec)␍␊
+[    0.000000] omap_hwmod: i2c3: softreset failed (waited 10000 usec)␍␊
+[    0.000000] Reprogramming SDRC clock to 400000000 Hz␍␊
+[    0.000000] IRQ: Found an INTC at 0xfa200000 (revision 4.0) with 96 interrupts␍␊
+[    0.000000] Total of 96 interrupts on 1 active controller␍␊
+[    0.000000] GPMC revision 5.0␍␊
+[    0.000000] Trying to install interrupt handler for IRQ378␍␊
+[    0.000000] Trying to install interrupt handler for IRQ379␍␊
+[    0.000000] Trying to install interrupt handler for IRQ380␍␊
+[    0.000000] Trying to install interrupt handler for IRQ381␍␊
+[    0.000000] Trying to install interrupt handler for IRQ382␍␊
+[    0.000000] Trying to install interrupt handler for IRQ383␍␊
+[    0.000000] Trying to install interrupt handler for IRQ384␍␊
+[    0.000000] Trying to install type control for IRQ385␍␊
+[    0.000000] Trying to set irq flags for IRQ385␍␊
+[    0.000000] OMAP clockevent source: GPTIMER1 at 32768 Hz␍␊
+[    0.000000] Console: colour dummy device 80x30␍␊
+[    0.000000] Calibrating delay loop... 597.40 BogoMIPS (lpj=1167360)␍␊
+[    0.000000] pid_max: default: 32768 minimum: 301␍␊
+[    0.000000] Security Framework initialized␍␊
+[    0.000000] Mount-cache hash table entries: 512␍␊
+[    0.000000] Initializing cgroup subsys ns␍␊
+[    0.000000] ns_cgroup deprecated: consider using the 'clone_children' flag without the ns_cgroup.␍␊
+[    0.000000] Initializing cgroup subsys cpuacct␍␊
+[    0.000000] Initializing cgroup subsys memory␍␊
+[    0.000000] Initializing cgroup subsys devices␍␊
+[    0.000000] Initializing cgroup subsys freezer␍␊
+[    0.000000] CPU: Testing write buffer coherency: ok␍␊
+[    0.000000] devtmpfs: initialized␍␊
+[    0.000000] regulator: core version 0.5␍␊
+[    0.000000] regulator: dummy: ␍␊
+[    0.000000] NET: Registered protocol family 16␍␊
+[    0.000000] OMAP GPIO hardware version 2.5␍␊
+[    0.000000] OMAP GPIO hardware version 2.5␍␊
+[    0.000000] OMAP GPIO hardware version 2.5␍␊
+[    0.000000] OMAP GPIO hardware version 2.5␍␊
+[    0.000000] OMAP GPIO hardware version 2.5␍␊
+[    0.000000] OMAP GPIO hardware version 2.5␍␊
+[    0.000000] OMAP3 Lab126 Rev: r:0x1a f:0x1a␍␊
+[    0.000000] Lab126 Board Revision detected : EVT-3.2␍␊
+[    0.000000] Board ID and Serial Number driver for Lab126 boards version 1.0␍␊
+[    0.000000] misto Board id - 028070C170240C2L␍␊
+[    0.000000] misto Serial # - 90F0071870340130␍␊
+[    0.000000] omap_mux_init: Add partition: #1: core, flags: 0␍␊
+[    0.000000] WiFi RESET␍␊
+[    0.000000] Bluetooth RESET␍␊
+[    0.000000] hw-breakpoint: debug architecture 0x4 unsupported.␍␊
+[    0.000000] hw perfevents: enabled with ARMv7 Cortex-A8 PMU driver, 5 counters available␍␊
+[    0.000000] Switched to new clocking rate (Crystal/Core/MPU): 19.2/400/1000 MHz␍␊
+[    0.000000] OMAP DMA hardware revision 5.0␍␊
+[    0.010498] bio: create slab <bio-0> at 0␍␊
+[    0.011077] regulator: KLM4G1FEAC: 1800 mV ␍␊
+[    0.011383] regulator: QCA6134: 2000 mV ␍␊
+[    0.012512] SCSI subsystem initialized␍␊
+[    0.014434] omap_i2c omap_i2c.1: bus 1 rev4.0 at 400 kHz␍␊
+[    0.015655] regulator: VRTC: 1800 mV ␍␊
+[    0.016296] regulator: VIO: 1800 mV ␍␊
+[    0.017059] regulator: VDD1: 600 <--> 1500 mV at 1350 mV ␍␊
+[    0.017822] regulator: VDD2: 600 <--> 1500 mV at 1200 mV ␍␊
+[    0.018005] regulator: VDD3: 5000 mV ␍␊
+[    0.018524] regulator: VDIG1: 1200 <--> 2700 mV at 1800 mV ␍␊
+[    0.019042] regulator: VDIG2: 1000 <--> 1800 mV at 1800 mV ␍␊
+[    0.019592] regulator: VPLL: 1000 <--> 2500 mV at 1800 mV ␍␊
+[    0.020141] regulator: VDAC: 1800 <--> 2850 mV at 2850 mV ␍␊
+[    0.020660] regulator: VAUX1: 1800 <--> 2850 mV at 2850 mV ␍␊
+[    0.021179] regulator: VAUX2: 1800 <--> 3300 mV at 2900 mV ␍␊
+[    0.021667] regulator: VAUX33: 1800 <--> 3300 mV at 2000 mV ␍␊
+[    0.022186] regulator: VMMC: 1800 <--> 3000 mV at 3000 mV normal standby␍␊
+[    0.030700] omap_i2c omap_i2c.3: bus 3 rev4.0 at 400 kHz␍␊
+[    0.031097] omap_device: omap_i2c.3: new worst case deactivate latency 0: 30517␍␊
+[    0.038513] omap_i2c omap_i2c.2: bus 2 rev4.0 at 400 kHz␍␊
+[    0.040802] Advanced Linux Sound Architecture Driver Version 1.0.23.␍␊
+[    0.041290] Bluetooth: Core ver 2.15␍␊
+[    0.041442] NET: Registered protocol family 31␍␊
+[    0.041473] Bluetooth: HCI device and connection manager initialized␍␊
+[    0.041473] Bluetooth: HCI socket layer initialized␍␊
+[    0.041809] Switching to clocksource 32k_counter␍␊
+[    0.059539] NET: Registered protocol family 2␍␊
+[    0.059661] IP route cache hash table entries: 2048 (order: 1, 8192 bytes)␍␊
+[    0.059967] TCP established hash table entries: 8192 (order: 4, 65536 bytes)␍␊
+[    0.060058] TCP bind hash table entries: 8192 (order: 3, 32768 bytes)␍␊
+[    0.060150] TCP: Hash tables configured (established 8192 bind 8192)␍␊
+[    0.060150] TCP reno registered␍␊
+[    0.060150] UDP hash table entries: 256 (order: 0, 4096 bytes)␍␊
+[    0.060180] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)␍␊
+[    0.060302] NET: Registered protocol family 1␍␊
+[    0.060546] RPC: Registered udp transport module.␍␊
+[    0.060546] RPC: Registered tcp transport module.␍␊
+[    0.060546] RPC: Registered tcp NFSv4.1 backchannel transport module.␍␊
+[    0.060699] NetWinder Floating Point Emulator V0.97 (double precision)␍␊
+[    0.061157] PMU: registered new PMU device of type 0␍␊
+[    0.061950] ram_console: got buffer at 88000000, size 200000␍␊
+[    0.062011] ram_console: no valid data in buffer (sig = 0x609d4101)␍␊
+[    0.062194] console [ram-1] enabled␍␊
+[    0.062377] omap-iommu omap-iommu.0: isp registered␍␊
+[    0.134918] VFS: Disk quotas dquot_6.5.2␍␊
+[    0.134979] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)␍␊
+[    0.135559] JFFS2 version 2.2. (NAND) (SUMMARY)  <0xc2><0xa9> 2001-2006 Red Hat, Inc.␍␊
+[    0.136413] msgmni has been set to 379␍␊
+[    0.137268] io scheduler noop registered␍␊
+[    0.137298] io scheduler deadline registered␍␊
+[    0.137359] io scheduler cfq registered (default)␍␊
+[    0.138031] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled␍␊
+[    0.139404] omap_uart.0: ttyO0 at MMIO 0x4806a000 (irq = 72) is a OMAP UART0␍␊
+[    0.888702] console [ttyO0] enabled␍␊
+[    0.892669] omap_uart.1: ttyO1 at MMIO 0x4806c000 (irq = 73) is a OMAP UART1␍␊
+[    0.900360] omap_uart.2: ttyO2 at MMIO 0x49020000 (irq = 74) is a OMAP UART2␍␊
+[    0.907989] omap_uart.3: ttyO3 at MMIO 0x49042000 (irq = 80) is a OMAP UART3␍␊
+[    0.922851] brd: module loaded␍␊
+[    0.929809] loop: module loaded␍␊
+[    0.934143] mtdoops: mtd device (mtddev=name/number) must be supplied␍␊
+[    0.940917] omap2-nand driver initializing␍␊
+[    0.945404] OneNAND driver initializing␍␊
+[    0.950592] ks8851 spi1.0: message enable is 0␍␊
+[    0.957336] ks8851 spi1.0: failed to read device ID␍␊
+[    0.962615] tun: Universal TUN/TAP device driver, 1.6␍␊
+[    0.967895] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>␍␊
+[    0.975036] mice: PS/2 mouse device common for all mice␍␊
+[    0.981109] input: gpio-keys as /devices/platform/gpio-keys/input/input0␍␊
+[    0.989257] input: rotary-encoder as /devices/platform/rotary-encoder.0/input/input1␍␊
+[    0.997833] i2c /dev entries driver␍␊
+[    1.003967] OMAP Watchdog Timer Rev 0x31: initial timeout 60 sec␍␊
+[    1.010406] Bluetooth: HCI UART driver ver 2.2␍␊
+[    1.015075] Bluetooth: HCIATH3K protocol initialized␍␊
+[    1.022827] omap_pwm_led omap_pwm_led.0: OMAP PWM LED (power-led) at GP timer 8␍␊
+[    1.031433] omap_pwm_led omap_pwm_led.1: OMAP PWM LED (network-led) at GP timer 11␍␊
+[    1.041595] omap_device: omap_i2c.2: new worst case activate latency 0: 30517␍␊
+[    1.049682] lp5523 2-0032: LP5523 Programmable led chip found␍␊
+[    1.060455] lp5523 2-0033: LP5523 Programmable led chip found␍␊
+[    1.070892] lp5523 2-0034: LP5523 Programmable led chip found␍␊
+[    1.081604] lp5523 2-0035: LP5523 Programmable led chip found␍␊
+[    1.092559] Function : aic32xx_i2c_probe␍␊
+[    1.096710] AIC32xx Audio Codec 1.1␍␊
+[    1.100341] codec: aic32xx_i2c_probe : snd_soc_register_codec success␍␊
+[    1.107086] Function : aic32xx_i2c_probe␍␊
+[    1.111175] AIC32xx Audio Codec 1.1␍␊
+[    1.114807] Function : aic32xx_i2c_probe␍␊
+[    1.118896] AIC32xx Audio Codec 1.1␍␊
+[    1.122558] Function : aic32xx_i2c_probe␍␊
+[    1.126647] AIC32xx Audio Codec 1.1␍␊
+[    1.130310] Function : aic32xx_i2c_probe␍␊
+[    1.134399] AIC32xx Audio Codec 1.1␍␊
+[    1.138549] MACHINE DRIVER : omap3evm_init function....␍␊
+[    1.144348] in aic32xx_probe....␍␊
+[    1.171020] asoc: tlv320aic32xx-capture <-> omap-mcbsp-dai.0 mapping ok␍␊
+[    1.178710] asoc: tlv320aic32xx-playback <-> omap-mcbsp-dai.1 mapping ok␍␊
+[    1.186187] asoc: Bluetooth <-> omap-mcbsp-dai.2 mapping ok␍␊
+[    1.193695] ALSA device list:␍␊
+[    1.196838]   #0: OMAP3EVM␍␊
+[    1.200134] oprofile: using arm/armv7␍␊
+[    1.204101] nf_conntrack version 0.5.0 (3036 buckets, 12144 max)␍␊
+[    1.210662] ip_tables: (C) 2000-2006 Netfilter Core Team␍␊
+[    1.223083] TCP probe registered (port=0) bufsize=4096␍␊
+[    1.228454] TCP cubic registered␍␊
+[    1.231842] Initializing XFRM netlink socket␍␊
+[    1.236328] NET: Registered protocol family 17␍␊
+[    1.240997] NET: Registered protocol family 15␍␊
+[    1.245788] Bluetooth: L2CAP ver 2.15␍␊
+[    1.249633] Bluetooth: L2CAP socket layer initialized␍␊
+[    1.254943] Bluetooth: SCO (Voice Link) ver 0.6␍␊
+[    1.259674] Bluetooth: SCO socket layer initialized␍␊
+[    1.264862] Bluetooth: RFCOMM TTY layer initialized␍␊
+[    1.269989] Bluetooth: RFCOMM socket layer initialized␍␊
+[    1.275360] Bluetooth: RFCOMM ver 1.11␍␊
+[    1.279266] Bluetooth: BNEP (Ethernet Emulation) ver 1.3␍␊
+[    1.284790] Bluetooth: BNEP filters: protocol multicast␍␊
+[    1.290252] Bluetooth: HIDP (Human Interface Emulation) ver 1.2␍␊
+[    1.297790] Registering the dns_resolver key type␍␊
+[    1.302734] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3␍␊
+[    1.313049] ThumbEE CPU extension supported.␍␊
+[    1.319366] Power Management for TI OMAP3.␍␊
+[    1.323883] sr_init: No PMIC hook to init smartreflex␍␊
+[    1.329284] smartreflex smartreflex.0: omap_sr_probe: SmartReflex driver initialized␍␊
+[    1.337463] smartreflex smartreflex.1: omap_sr_probe: SmartReflex driver initialized␍␊
+[    1.348266] clock: disabling unused clocks to save power␍␊
+[    1.354492] platform mpu.0: omap_voltage_scale: Already at the requestedrate 1000000000␍␊
+[    1.367034] registered taskstats version 1␍␊
+[    1.371673] regulator_init_complete: disabling VDD3␍␊
+[    1.377532] regulator_init_complete: disabling QCA6134␍␊
+[    1.382873] regulator_init_complete: disabling KLM4G1FEAC␍␊
+[    1.388549] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)␍␊
+[    1.395416] Waiting for root device /dev/mmcblk0p6...␍␊
+[    1.443756] mmc0: host does not support reading read-only switch. assuming write-enable.␍␊
+[    1.463867] mmc0: new high speed SDHC card at address aaaa␍␊
+[    1.470062] mmcblk0: mmc0:aaaa SL16G 14.8 GiB ␍␊
+[    1.481597]  mmcblk0: p1 p2 p3 < p5 p6 > p4␍␊
+[    1.509765] kjournald starting.  Commit interval 5 seconds␍␊
+[    1.515533] EXT3-fs (mmcblk0p6): mounted filesystem with ordered data mode␍␊
+[    1.522766] VFS: Mounted root (ext3 filesystem) readonly on device 179:6.␍␊
+[    1.534729] devtmpfs: mounted␍␊
+[    1.537872] Freeing init memory: 184K␍␊
+[    1.596832] mmc1: new high speed MMC card at address 0001␍␊
+[    1.603240] mmcblk1: mmc1:0001 SEM04G 3.68 GiB ␍␊
+[    1.610260]  mmcblk1: p1 p2 p3 p4 p5 p6 p7 p8␍␊
+[    1.671875] mmc2: queuing unknown CIS tuple 0x01 (3 bytes)␍␊
+[    1.684997] mmc2: queuing unknown CIS tuple 0x1a (5 bytes)␍␊
+[    1.693969] mmc2: queuing unknown CIS tuple 0x1b (8 bytes)␍␊
+[    1.700378] mmc2: queuing unknown CIS tuple 0x14 (0 bytes)␍␊
+Mount failed for selinuxfs on /sys/fs/selinux:  No such file or [    1.721954] mmc2: queuing unknown CIS tuple 0x80 (1 bytes)␍␊
+directory␍␊
+[    1.728759] mmc2: queuing unknown CIS tuple 0x81 (1 bytes)␍␊
+[    1.735961] mmc2: queuing unknown CIS tuple 0x82 (1 bytes)␍␊
+[    1.741943] mmc2: new high speed SDIO card at address 0001␍␊
+␍INIT: version 2.88 booting␍␍␊
+[<0x1b>[36minfo<0x1b>[39;49m] Using makefile-style concurrent boot in runlevel S.␍␊
+[....] Starting the hotplug events dispatcher: udevd[    2.257598] <30>systemd-udevd[667]: starting version 215␍␊
+<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0c.␍␊
+[....] Synthesizing the initial hotplug events...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0cdone.␍␊
+[....] Waiting for /dev to be fully populated...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0cdone.␍␊
+[....] Activating swap...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0cdone.␍␊
+[    3.740386] EXT3-fs (mmcblk0p6): using internal journal␍␊
+[....] Activating lvm and md swap...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0cdone.␍␊
+[....] Checking file systems...fsck from util-linux 2.25.2␍␊
+<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0cdone.␍␊
+[....] Cleaning up temporary files...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0c.␍␊
+[....] Mounting local filesystems...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0cdone.␍␊
+[....] Activating swapfile swap...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0cdone.␍␊
+[....] Cleaning up temporary files...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0c.␍␊
+[....] Setting kernel variables ...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0cdone.␍␊
+[....] Configuring network interfaces...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0cdone.␍␊
+[....] Cleaning up temporary files...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0c.␍␊
+␍INIT: Entering runlevel: 2␍␍␊
+[<0x1b>[36minfo<0x1b>[39;49m] Using makefile-style concurrent boot in runlevel 2.␍␊
+[    6.061004] omap_device: omap_wdt.-1: new worst case activate latency 0: 30517␍␊
+[....] Starting watchdog keepalive daemon...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0c.␍␊
+[....] Starting enhanced syslogd: rsyslogdA newer kernel is required to run this binary. (__kernel_cmpxchg64 helper)␍␊
+<break>
+Aborted␍␊
+<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[31mFAIL<0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0c <0x1b>[31mfailed!<0x1b>[39;49m␍␊
+[....] Starting periodic command scheduler: cron<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0c.␍␊
+[<0x1b>[36minfo<0x1b>[39;49m] Not starting internet superserver: no services enabled.␍␊
+[    6.585144] omap_wdt: Unexpected close, not stopping!␍␊
+[....] Stopping watchdog keepalive daemon...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0c.␍␊
+[....] Starting watchdog daemon...<0x1b>[?25l<0x1b>[?1c<0x1b>7<0x1b>[1G[<0x1b>[32m ok <0x1b>[39;49m<0x1b>8<0x1b>[?25h<0x1b>[?0c.␍␊
+␍␍␊
+Debian GNU/Linux 8 thinkpar ttyO0␍␊
+␍␊
+thinkpar login: root␍␍␊
+Password: ␍␊
+Last login: Thu Jan  1 00:00:14 UTC 1970 on ttyO0␍␊
+Linux thinkpar 2.6.37 #1 Wed Sep 2 20:25:41 PDT 2015 armv7l␍␊
+␍␊
+The programs included with the Debian GNU/Linux system are free software;␍␊
+the exact distribution terms for each program are described in the␍␊
+individual files in /usr/share/doc/*/copyright.␍␊
+␍␊
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent␍␊
+permitted by applicable law.␍␊
+root@thinkpar:~# mount /dev/mmcblk0p4 /mnt␍␊
+[   18.709594] kjournald starting.  Commit interval 5 seconds␍␊
+[   18.720001] EXT3-fs (mmcblk0p4): using internal journal␍␊
+[   18.725463] EXT3-fs (mmcblk0p4): mounted filesystem with ordered data mode␍␊
+root@thinkpar:~# cd /mnt␍␊
+root@thinkpar:/mnt# ls␍␊
+lost+found␍␊
+root@thinkpar:/mnt# fdisk -l␍␊
+␍␊
+Disk /dev/mmcblk0: 14.9 GiB, 15931539456 bytes, 31116288 sectors␍␊
+Units: sectors of 1 * 512 = 512 bytes␍␊
+Sector size (logical/physical): 512 bytes / 512 bytes␍␊
+I/O size (minimum/optimal): 512 bytes / 512 bytes␍␊
+Disklabel type: dos␍␊
+Disk identifier: 0xf5a12eb9␍␊
+␍␊
+<0x1b>[1mDevice         Boot   Start      End  Sectors  Size Id Type<0x1b>[0m␍␊
+/dev/mmcblk0p1 *       2048    34815    32768   16M  4 FAT16 <32M␍␊
+/dev/mmcblk0p2        34816   239615   204800  100M 83 Linux␍␊
+/dev/mmcblk0p3       239616  2336767  2097152    1G  5 Extended␍␊
+/dev/mmcblk0p4      2336768 31116287 28779520 13.7G 83 Linux␍␊
+/dev/mmcblk0p5       241664   446463   204800  100M 83 Linux␍␊
+/dev/mmcblk0p6       448512  2336767  1888256  922M 83 Linux␍␊
+␍␊
+Partition table entries are not in disk order.␍␊
+Disk /dev/mmcblk1: 3.7 GiB, 3959422976 bytes, 7733248 sectors␍␊
+Units: sectors of 1 * 512 = 512 bytes␍␊
+Sector size (logical/physical): 512 bytes / 512 bytes␍␊
+I/O size (minimum/optimal): 512 bytes / 512 bytes␍␊
+Disklabel type: gpt␍␊
+Disk identifier: F9F21FFF-A8D4-5F0E-9746-594869AEC34E␍␊
+␍␊
+<0x1b>[1mDevice           Start     End Sectors  Size Type<0x1b>[0m␍␊
+/dev/mmcblk1p1     256    2047    1792  896K Microsoft basic data␍␊
+/dev/mmcblk1p2    2048   34815   32768   16M Microsoft basic data␍␊
+/dev/mmcblk1p3   34816   67583   32768   16M Microsoft basic data␍␊
+/dev/mmcblk1p4   67584  100351   32768   16M Microsoft basic data␍␊
+/dev/mmcblk1p5  100352  362495  262144  128M Microsoft basic data␍␊
+/dev/mmcblk1p6  362496 2459647 2097152    1G Microsoft basic data␍␊
+/dev/mmcblk1p7 2459648 4556799 2097152    1G Microsoft basic data␍␊
+/dev/mmcblk1p8 4556800 7733213 3176414  1.5G Microsoft basic data␍␊
+␍␊
+root@thinkpar:/mnt# cat /dev/mmcblk1 > echo_firmware_new.img␍␊
+ls␍␊
+root@thinkpar:/mnt# ls␍␊
+echo_firmware_new.img  lost+found␍␊
+root@thinkpar:/mnt# ls -lah␍␊
+total 3.7G␍␊
+drwxr-xr-x  3 root root 4.0K Jan  1 00:01 .␍␊
+drwxr-xr-x 21 root root 4.0K Mar 13  2017 ..␍␊
+-rw-r--r--  1 root root 3.7G Jan  1 00:09 echo_firmware_new.img␍␊
+drwx------  2 root root  16K Mar 14  2017 lost+found␍␊
+root@thinkpar:/mnt# sync␍␊
+root@thinkpar:/mnt# cd␍␊
+root@thinkpar:~# umount /mnt␍␊
+root@thinkpar:~# 

@@ -1,0 +1,142 @@
+[0] [PMIC_WRAP]wrap_init pass,the return value=0.␍␍␊
+[1] [pmic6323] [pmic6323_init] Preloader Start..................␍␍␊
+[2] [pmic6323] [pmic6323_init] PMIC CHIP Code = 0x2023␍␍␊
+[2] [pmic6323] [pmic6323_init] powerKey = 0␍␍␊
+[3] [pmic6323] [pmic6323_init] is USB in = 0xB003␍␍␊
+[9] GPU/DRAM EFUSE 01 = 0x4021000␍␍␊
+[10] [HQA][Turbo]GPU/DRAM is not turbo mode␍␍␊
+[24] [pll] [mt_pll_init] MEMPLL calibration pass␍␍␊
+[25] [platform] [PLFM] Init I2C: OK(0)␍␍␊
+[25] [platform] [PLFM] Init PWRAP: OK(0)␍␍␊
+[25] [platform] [PLFM] Init PMIC: OK(0)␍␍␊
+[26] [platform] [PLFM] chip_ver[1]␍␍␊
+[26] [BLDR] Build Time: 20170926_022358␍␍␊
+[27] [BLDR] Ver=753ee81 (build@14-use1b-b-7)␍␍␊
+[27] [wdt] RGU: g_rgu_satus:0␍␍␊
+[28] [wdt] PL P ON␍␍␊
+[28] [wdt] WDT does not trigger reboot␍␍␊
+[28] [kpd] Enter mtk_kpd_gpio_set! ␍␍␊
+[1090] [rtc] Check SW Long Press RST = 0xC0␍␍␊
+[1100] GPIO MEM_ID=0 Index=1 Memory Size=1GB␍␍␊
+[1101] mt_get_dram_type() 0x3␍␍␊
+[1101] [EMI] LPDDR3␍␍␊
+[1102] [Check]mt_get_mdl_number 0x1␍␍␊
+[1102] [EMI] eMMC/NAND ID = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0␍␍␊
+[1103] [EMI] MDL number = 1␍␍␊
+[1103] [EMI] emi_set eMMC/NAND ID = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0␍␍␊
+[1104] [EMI] DRAMC POP_CHA[4] is 13␍␍␊
+[1104] [EMI] LPDDR3-NV Vcore:72, Vmem:15␍␍␊
+[1105] [EMI][Vcore]0x21E=0x48,0x220=0x48␍␍␊
+[EMI][Vmem]0x554=0xF␍␍␊
+[1105] [EMI] LPDDR3 DRAM Clock = 1600 MHz, MEMPLL MODE = 2 ␍␍␊
+[1106] [EMI] LPDDR3 DRAM Clock = (1491744, 1600) MHz, MEMPLL MODE = 2 ␍␍␊
+[1107] init_lpddr3, line 1180, MRS, 63, 0x3F␍␍␊
+[1112] CA training step is 0␍␍␊
+[1112] init_lpddr3, line 1201, MRS, 10, 0xFF000A␍␍␊
+[1113] init_lpddr3, line 1216, MRS, 11, 0x6000B␍␍␊
+[1113] init_lpddr3, line 1232, MRS, 3, 0x20003␍␍␊
+[1114] init_lpddr3, line 1290, MRS, 1, 0xC30001␍␍␊
+[1114] init_lpddr3, line 1304, MRS, 2, 0xA0002␍␍␊
+[1115] LP3, v1␍␍␊
+[1115] TX DQS:4444␍␍␊
+[1115] TX DQM:4444␍␍␊
+[1115] TX DQ 0x200:66666666␍␍␊
+[1116] TX DQ 0x204:66666666␍␍␊
+[1116] TX DQ 0x208:66666666␍␍␊
+[1116] TX DQ 0x20c:66666666␍␍␊
+[1182] [MEM]CONA:2012,conf1:F00485C3␍␍␊
+[1189] [EMI] DRAMC calibration passed␍␍␊
+␍␍␊
+[1202] [MEM] complex R/W mem test pass␍␍␊
+[1202] 0:dram_rank_size:40000000␍␍␊
+[1202] [Dram_Buffer] dram size: 0x40000000 ␍␍␊
+[1203] [Dram_Buffer] dram_buf_t size: 0x1789C0 ␍␍␊
+[1203] [Dram_Buffer] part_hdr_t size: 0x200 ␍␍␊
+[1204] [Dram_Buffer] g_dram_buf start addr: 0x4BE00000 ␍␍␊
+[1204] [Dram_Buffer] g_dram_buf->msdc_gpd_pool start addr: 0x4BF787C0 ␍␍␊
+[1205] [Dram_Buffer] g_dram_buf->msdc_bd_pool start addr: 0x4BF788C0 ␍␍␊
+[1222] [RAM_CONSOLE] sram(0x12C000) sig 0x0 mismatch␍␍␊
+[1222] [RAM_CONSOLE] start:   0x43400000, size: 0x10000␍␍␊
+[1223] [RAM_CONSOLE] sig:     0xCCE743A␍␍␊
+[1223] [RAM_CONSOLE] off_pl:  0xA8C83478␍␍␊
+[1224] [RAM_CONSOLE] off_lpl: 0x88CC7C3A␍␍␊
+[1224] [RAM_CONSOLE] sz_pl:   0xACCC541A␍␍␊
+[1226] [RAM_CONSOLE] wdt status (0x0)=0x0␍␍␊
+[1384] [platform] [PLFM] Init Boot Device: OK(0)␍␍␊
+[1385] 0:dram_rank_size:40000000␍␍␊
+[1385] 0:dram_rank_size:40000000␍␍␊
+[1386] CUSTOM_CONFIG_MAX_DRAM_SIZE: 0x0000000100000000␍␍␊
+[1386] total_dram_size: 0x0000000040000000, max_dram_size: 0x0000000100000000␍␍␊
+[1387] [GPT_PL]Parsing Primary GPT now...␍␍␊
+[1395] [GPT_PL][0]name=kb, part_id=8, start_sect=0x800, nr_sects=0x800␍␍␊
+[1396] [GPT_PL][1]name=dkb, part_id=8, start_sect=0x1000, nr_sects=0x800␍␍␊
+[1397] [GPT_PL][2]name=lk_a, part_id=8, start_sect=0x1800, nr_sects=0x800␍␍␊
+[1398] [GPT_PL][3]name=tee1, part_id=8, start_sect=0x2000, nr_sects=0x2000␍␍␊
+[1399] [GPT_PL][4]name=lk_b, part_id=8, start_sect=0x4000, nr_sects=0x800␍␍␊
+[1399] [GPT_PL][5]name=tee2, part_id=8, start_sect=0x4800, nr_sects=0x2000␍␍␊
+[1400] [GPT_PL][6]name=expdb, part_id=8, start_sect=0x6800, nr_sects=0x8000␍␍␊
+[1401] [GPT_PL][7]name=misc, part_id=8, start_sect=0xE800, nr_sects=0x400␍␍␊
+[1402] [GPT_PL][8]name=boot_a, part_id=8, start_sect=0xEC00, nr_sects=0x8000␍␍␊
+[1403] [GPT_PL][9]name=boot_b, part_id=8, start_sect=0x16C00, nr_sects=0x8000␍␍␊
+[1404] [GPT_PL][10]name=system_a, part_id=8, start_sect=0x1EC00, nr_sects=0x200000␍␍␊
+[1405] [GPT_PL][11]name=system_b, part_id=8, start_sect=0x21EC00, nr_sects=0x200000␍␍␊
+[1406] [GPT_PL][12]name=cache, part_id=8, start_sect=0x41EC00, nr_sects=0x64000␍␍␊
+[1406] [GPT_PL][13]name=userdata, part_id=8, start_sect=0x482C00, nr_sects=0xA0D3DF␍␍␊
+[1408] [GPT_PL]Success to find valid GPT.␍␍␊
+[1408] ␍␍␊
+[PART] blksz: 512B␍␍␊
+[1408] [PART] [0x0000000000100000-0x00000000001FFFFF] "kb" (2048 blocks) ␍␍␊
+[1409] [PART] [0x0000000000200000-0x00000000002FFFFF] "dkb" (2048 blocks) ␍␍␊
+[1410] [PART] [0x0000000000300000-0x00000000003FFFFF] "lk_a" (2048 blocks) ␍␍␊
+[1411] [PART] [0x0000000000400000-0x00000000007FFFFF] "tee1" (8192 blocks) ␍␍␊
+[1412] [PART] [0x0000000000800000-0x00000000008FFFFF] "lk_b" (2048 blocks) ␍␍␊
+[1413] [PART] [0x0000000000900000-0x0000000000CFFFFF] "tee2" (8192 blocks) ␍␍␊
+[1413] [PART] [0x0000000000D00000-0x0000000001CFFFFF] "expdb" (32768 blocks) ␍␍␊
+[1414] [PART] [0x0000000001D00000-0x0000000001D7FFFF] "misc" (1024 blocks) ␍␍␊
+[1415] [PART] [0x0000000001D80000-0x0000000002D7FFFF] "boot_a" (32768 blocks) ␍␍␊
+[1416] [PART] [0x0000000002D80000-0x0000000003D7FFFF] "boot_b" (32768 blocks) ␍␍␊
+[1417] [PART] [0x0000000003D80000-0x0000000043D7FFFF] "system_a" (2097152 blocks) ␍␍␊
+[1418] [PART] [0x0000000043D80000-0x0000000083D7FFFF] "system_b" (2097152 blocks) ␍␍␊
+[1419] [PART] [0x0000000083D80000-0x000000009057FFFF] "cache" (409600 blocks) ␍␍␊
+[1420] [PART] [0x0000000090580000-0x00000001D1FFBDFF] "userdata" (10539999 blocks) ␍␍␊
+[1421] [LIB] HW ENC␍␍␊
+[1421] [BLDR] Tool connection is unlocked␍␍␊
+[1421] [platform] Checking for flashtool button...␍␍␊
+[1422] Device APC domain init setup:␍␍␊
+␍␍␊
+[1422] Domain Setup (0x0)␍␍␊
+[1423] Domain Setup (0x0)␍␍␊
+[1423] Device APC domain after setup:␍␍␊
+[1423] Domain Setup (0x40C00000)␍␍␊
+[1424] Domain Setup (0x182545)␍␍␊
+[1427] mmc_rpmb_get_wc, mmc_set_part_config done!!␍␍␊
+[1428] mmc_rpmb_send_command -> req_type=0x1, type=0x2, blks=0x1␍␍␊
+[1432] mmc_rpmb_send_command -> req_type=0x2, type=0x2, blks=0x1␍␍␊
+[1435] mmc_rpmb_get_wc, rpmb_req.result=0␍␍␊
+[1436] [RPMB] RPMB Provisioned␍␍␊
+[1439] mmc_rpmb_send_command -> req_type=0x1, type=0x4, blks=0x1␍␍␊
+[1443] mmc_rpmb_send_command -> req_type=0x2, type=0x4, blks=0x1␍␍␊
+[1456] [RPMB] Valid anti-rollback block exists␍␍␊
+[1456] (B)tz_dapc_sec_init is 0x0␍␍␊
+[1457] (E)tz_dapc_sec_init is 0x1␍␍␊
+[1462] [BCB] BCB Info: version 1␍␍␊
+[1463] [BCB] Part 0 - prio=0 tries=0 success=0␍␍␊
+[1463] [BCB] Part 1 - prio=15 tries=0 success=1␍␍␊
+[1464] [BCB] BCB active slot = 1␍␍␊
+[1465] [PART] partition hdr (1)␍␍␊
+[1466] [PART] Image with part header␍␍␊
+[1466] [PART] name : LK␍␍␊
+[1466] [PART] addr : FFFFFFFFh mode : -1␍␍␊
+[1467] [PART] size : 356620␍␍␊
+[1467] [PART] magic: 58881688h␍␍␊
+[1467] 0:dram_rank_size:40000000␍␍␊
+[1468] DRAM size is 0x40000000␍␍␊
+[1488] [SECURITY]: Production device␍␍␊
+[1489] [PART] Target is production device␍␍␊
+[1489] [PART] Verifying LK, total size (including signature) = 356620␍␍␊
+[1490] [PART] Device is RPMB provisioned, need to verify LK␍␍␊
+[1559] [VERIFY_LK] Error: fail to pass pss verification.␍␍␊
+[1560] [PART] Failed to verify LK␍␍␊
+[1560] [BLDR] Second Bootloader Load Failed␍␍␊
+[1560] [platform] ERROR: PL fatal error...␍␍␊
+
